@@ -4,11 +4,13 @@
 To Construct a Bayes Classifier to classiy iris dataset using Python.
 ## Algorithm:
 #### Input: 
+```
 - X: the training data, where each row represents a sample and each column represents a feature.
 - y: the target labels for the training data.
 - X_test: the testing data, where each row represents a sample and each column represents a feature.
-
+```
 #### Output:
+```
 - y_pred: the predicted labels for the testing data.
 
 1. Create a BayesClassifier class with the following methods:
@@ -21,7 +23,7 @@ To Construct a Bayes Classifier to classiy iris dataset using Python.
 5. Train the classifier on the training data using the fit method.
 6. Make predictions on the testing data using the predict method.
 7. Evaluate the classifier's accuracy using the accuracy_score function from scikit-learn.
-
+```
 ## Program:
 ```
 Developed By : Sai Eswar Kandukuri
